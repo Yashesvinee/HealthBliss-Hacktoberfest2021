@@ -571,6 +571,15 @@ h3{
   }
 }
 
+@media(max-width:1024px) and (min-width:280px){
+#hero h2{
+  font-size: 35px;
+  }
+#hero h3{
+  font-size: 18px;
+}  
+}
+
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -1440,11 +1449,8 @@ p{
 }
 
 .contact .info-box p {
-  padding: 0px;
-  line-height: 0px;
-  font-size: 20px;
-  margin-bottom: 0;
-}
+   font-size: 20px;
+ }
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -1546,6 +1552,13 @@ p{
   }
 }
 
+@media (max-width: 920px){
+  .contact .info-box p {
+  font-size: 18px;
+  word-wrap: break-word;
+}
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -1598,7 +1611,6 @@ p{
     display: inline-block;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Footer
